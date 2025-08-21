@@ -7,8 +7,8 @@ for runining backend
 2) in application.yml file change my sql prooerties 
            user-name 
            password 
-3) run the code conatains main method RecipeApplication.java file as Run as java
-4) in console it will show the the programm is running at port number 8080
+3) run the code conatains main method RecipeApplication.java file as Run as spring boot application 
+4) in console it will show the the programm is running at localhost port number 8080
 5) then start fronted 
 
 
