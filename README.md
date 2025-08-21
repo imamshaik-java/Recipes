@@ -4,7 +4,13 @@ recipes -Mysql
 for runining backend
 -------------------
 1)import the backend code in eclipse ->
-2) in application.yml file change my sql prooerties 
+1.1) next open your mysql software then create a new database 
+            CREATE DATABASE recipesdb;
+CREATE USER 'recipes'@'%' IDENTIFIED BY 'recipes';
+GRANT ALL PRIVILEGES ON recipesdb.* TO 'recipes'@'%';
+FLUSH PRIVILEGES;
+
+2) in eclipse backend code go to eapplication.yml file change my sql prooerties 
            user-name 
            password 
 3) run the code conatains main method RecipeApplication.java file as Run as spring boot application 
